@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RestaurantPOO.Restaurant">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAABAAAAAAAAAgAAAAAIAAAAAAACAQAAE=</HashCode>
+      <FileName>Restaurant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_cuisine" />
+      <Field Name="_menu" />
+      <Field Name="_salle" />
+      <Field Name="_trésorerie" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_clients" />
+      <Field Name="_employés" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RestaurantPOO.Salle">
+    <Position X="1.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Salle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RestaurantPOO.Menu">
+    <Position X="1.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_plats" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RestaurantPOO.Plat">
+    <Position X="6" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RestaurantPOO.Client">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAkAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RestaurantPOO.Cuisine">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAECAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Cuisinez.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_employés" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="RestaurantPOO.Trésorerie">
+    <Position X="1.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trésorerie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RestaurantPOO.Employé">
+    <Position X="0.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAIAAAAAAACEAAAAABQAAAAAAAAAA=</HashCode>
+      <FileName>Employé.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
